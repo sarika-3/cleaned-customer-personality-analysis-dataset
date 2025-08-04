@@ -21,9 +21,9 @@ gitclone
 Contributions are welcome! Feel free to open issues or submit pull requests to enhance or expand the project.
 
 The python code for following is :
-import pandas as pd 
-df = pd.read_csv("/content/marketing_campaign.csv" , sep='\t')
-print(df.head()) 
+1 import pandas as pd 
+2 df = pd.read_csv("/content/marketing_campaign.csv" , sep='\t')
+3 print(df.head()) 
 print(df.isna().sum())
 df['Income'] = df['Income'].replace(['n/a', 'none', 'na'], pd.NA)
 print(df.dropna())
